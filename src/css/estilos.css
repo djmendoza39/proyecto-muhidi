@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;500;600;700;800&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+/* estilos generales */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body, html{
+    font-family: 'Roboto Slab', serif;
+}
+
+ul li{
+    font-size: 1rem;
+    list-style: none;
+    padding: 1rem;
+}
+
+small{
+    color: #A40176;
+    font-size: 1.4rem;
+}
+
+/* / */
+
+
+/* estilos personales header */
+
+header{
+    background-color: rgb(69, 13, 80);
+    background-image: url(../img/caorussel-foto1.jpeg);
+    background-position: center top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    
+
+}
+
+
+
+header span.header-titulo{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+header .nav-link{
+    color: aliceblue !important;
+}
+
+.header-titulo{
+    color: aliceblue;
+}
+.header-titulo h1{
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+/* / */
+
+/* estilos personales seccion jumbotrom icono play */
+
+.jumbotron{
+    position: relative;
+    background-image: url(../img/caorusell-camara2.jpeg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 40vh;
+}
+.container-jumbotron{
+    position: absolute;
+    background-color:rgba(49, 2, 53, 0.637) ;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    display: grid;
+    place-content: center;
+    z-index: 3;
+    
+}
+.bi-fsize{
+    font-size: 5rem;
+    color: rgb(228, 16, 247);
+}
+/* / */
+
+/* patrocinadores jumbotron */
+.patrocinadores{
+    background-color: rgba(110, 6, 119, 0.161) ;
+
+}
+/* / */
+
+/* estilos seccion photos */
+.service-photos * img{
+    clip-path: polygon(100% 0, 100% 100%, 50% 81%, 0 100%, 0 0);
+}
+
+/* seccion galeria */
+.galery-contenido{
+    position: relative;
+}
+ .contenido-texto{
+    background-color: rgba(250, 235, 215, 0.163);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.contenido figure{
+    transition: all .2s ease;
+   
+    
+}
+
+.contenido figure:hover {
+    opacity: 0;
+    transition: all .1s ease-in;
+}
+/* / */
+
+
+/* seccion testimonio */
+.section-testimonios{
+    background-color: #0e000a;
+    
+}
+
+/* seccion precios */
+.contenedor-precios{
+    background-color: #9B0372;
+    width: 100%;
+    height: 200px;
+    display: grid;
+    place-content: center;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 82%);
+
+}
+
+.contenedor-precios span{
+    color: aliceblue;
+    font-size: 3.6rem;
+}
+/* / */
