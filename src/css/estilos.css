@@ -181,3 +181,55 @@ header .nav-link{
     font-size: .8rem;
 }
 /* / */
+
+/* seccion suscribete */
+.seccion-suscribete{
+    background-color: #0e000a;
+    background-image: url(../img/cámaras-fotográficas.webp);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 30vh;
+    position: relative;
+}
+
+.container-correo{
+    position: absolute;
+    background-color: #3d012c97;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: grid;
+    place-content: center;
+}
+
+.seccion-suscribete h3{
+    font-size: 1.6rem;
+}
+
+.bi-icon--estilos{
+    color: aliceblue;
+    font-size: 1.2rem;
+    background-color: #5627e5;
+    display: inline-block;
+    width: 2rem;
+    margin-right: .4rem;
+    text-align: center;
+    
+}
+
+.bi-icons-redes{
+    background-color: #0e000a;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-content: center;
+    color: aliceblue;
+}
+
+
+/* / */
