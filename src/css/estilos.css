@@ -14,7 +14,7 @@ body, html{
 ul li{
     font-size: 1rem;
     list-style: none;
-    padding: 1rem;
+    padding: .8rem;
 }
 
 small{
@@ -135,18 +135,40 @@ header .nav-link{
 }
 
 /* seccion precios */
+.seccion-precios * h5{
+    font-size: 2.2rem;
+
+}
 .contenedor-precios{
     background-color: #9B0372;
     width: 100%;
-    height: 200px;
+    height: 180px;
     display: grid;
     place-content: center;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 82%);
 
 }
 
+
+
 .contenedor-precios span{
     color: aliceblue;
     font-size: 3.6rem;
 }
+
+.bi--colores{
+    color: #5627e5;
+    font-size: 1.6rem;
+    margin-right: 1.8rem;
+}
+
+.btn-estilos-propios{
+    background-color: #0e000a;
+    color: aliceblue;
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid #5627e5;
+}
+
+
 /* / */
