@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;500;600;700&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
 
 /* estilos generales */
@@ -8,7 +8,7 @@
     margin: 0;
 }
 body, html{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Oswald', sans-serif;
 }
 img{
     object-fit: cover;
@@ -39,11 +39,7 @@ header{
     background-attachment: fixed;
     height: 100vh;
     width: 100%;
-    
-
 }
-
-
 
 header span.header-titulo{
     font-size: 1.4rem;
@@ -102,9 +98,19 @@ header .nav-link{
 /* / */
 
 /* estilos seccion photos */
-.service-photos * img{
+.container-service-photos{
+    height: 15rem;
+    background-color: #5627e5;
     clip-path: polygon(100% 0, 100% 100%, 50% 81%, 0 100%, 0 0);
+    display: grid;
+    place-content: center;
 }
+
+.container-service-photos i{
+    font-size: 5rem;
+    color: aliceblue;
+}
+
 
 /* seccion galeria */
 .galery-contenido{
@@ -231,5 +237,11 @@ header .nav-link{
     color: aliceblue;
 }
 
+/* / */
+
+/* estilos footer */
+footer{
+    background-color: #FF6363;
+}
 
 /* / */
